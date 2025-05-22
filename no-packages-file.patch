@@ -1,0 +1,10 @@
+--- swupd-local-search-23/swupd-search.py~	2024-07-01 22:49:03.000000000 +0000
++++ swupd-local-search-23/swupd-search.py	2025-05-22 20:29:19.741658954 +0000
+@@ -571,7 +571,6 @@
+ 
+     parse_command_not_found("/usr/share/clear/commandlist.csv")
+     parse_command_aliases("/usr/share/clear/alternatives.csv")
+-    parse_pundles("/usr/share/clr-bundles/packages")
+     parse_bundles("/usr/share/clr-bundles/")
+     parse_bundle_mappings("/usr/share/clr-bundles/mappings/")
+ 
